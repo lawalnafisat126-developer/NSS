@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+html {
+    max-width: 100%;
+}
+body {
+    max-width: 100%;
+    overflow-x: clip;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    /* margin: 10px; */
+    padding: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 30px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+ul a{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+ul a:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-right: 20px;
+}
+
+.Trusted{
+    background:linear-gradient(rgba(0,128,0,0.2)), url(trusted.jpeg);
+    background-color: brown;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    margin: -10px;
+    
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+}
+.even h1{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 40px;
+}
+.even P{
+    font-size: 25px;
+    color: white;
+}
+.even{
+    position: relative;
+    top: 150px;
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+    
+}
+.nill{
+    margin: 70px;
+    text-align: center;
+}
+.nill h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: orange;
+}
+.across img{
+    width: 90%;
+    height: 40vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Secure img{
+    width: 60px;
+}
+.Secure{
+    display: block;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+.Secure h2{
+    margin: 10px;
+}
+.Secure p{
+    margin-bottom: 60px;
+    width: 90%;
+}
+.parent-numb{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+.eco img{
+   width: 33%;
+   height: 40vh;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.logic img{
+    width: 40px;
+}
+.parent-long{
+    display: block;
+    box-shadow: 5px 5px 5px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.parent-act{
+    margin: 30px 35px;
+}
+.logic p{
+    margin-bottom: 60px;
+    width: 50%;
+}
+.quote{
+     text-align: center;
+}
+button{
+    padding:15px;
+    background-color: white;
+    color: #ffa500;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 5px 5px rgb(224, 223, 223);
+    margin-top: 15px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.acrosss img{
+    width: 30%;
+    justify-content: center;
+}
+.acrosss{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Securee p{
+    font-size: 18px;
+}
+ .quote{
+     margin: 50px; 
+} 
+.you{
+    background-color: #f4f7fa;
+    padding: 30px 40px;
+    margin-top: 50px;
+}
+.quote h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #ffa500;
+}
+.quote p{
+    font-size: 20px;
+}
+.track{
+    text-align: center;
+    margin: 80px;
+}
+.ship h1{
+    font-size: 45px;
+     color: #ffa500;
+}
+.ship{
+    margin: 50px;
+}
+.Tracking input{
+    width: 50%
+}
+.Tracking input{
+    padding: 15px;
+    border: 3px solid #ffa500;
+    font-size: 18px;
+    border-radius: 30px; 
+}
+.Tracking{
+    gap: 30px;
+}
+.Tracking a{
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 18px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(95, 95, 95, 0.15);
+    font-weight: bold;
+}
+.Map img{
+   width: fit-content;
+   height: fit-content;
+   mix-blend-mode: multiply;
+   display: flex;
+   margin: auto;
+}
+.Map h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ffa500;
+}
+.Reach img{
+    width: 45px;
+    margin: 20px 60px;
+    border-radius: 20px;
+}
+.Reach{
+    background-color: white;
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    
+}
+.Reach h2{
+    font-size: 20px;
+    margin: 10px;
+    color: #222;
+}
+.Reach p{
+    font-size: 18px;
+    width: 83%;
+    color: #555;
+}
+.always{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.late img{
+    width: 95%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px #f1f3f4;
+    margin: 0 20px;
+
+}
+.late{
+    width: 50%;
+}
+.humble{
+    width: 50%;
+}
+.humble p{
+    font-size: 17px;
+    line-height: 2;
+    margin-bottom: 20px;
+    width: 110%;
+
+
+}
+.humble h3{
+   font-size: 18px;
+   line-height: 1.6;
+   color: #ffa500;
+   margin-bottom: 25px;
+}
+.humble h4{
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.Founded{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+}
+.nobody{
+    background-color: #f1f3f4;
+}
+.Message{
+    display: block;
+    text-align: center;
+    padding: 80px;
+    background-color:  #f1f3f4;
+}
+.Message img{
+    width: 25px;
+}
+.Message h1{
+    font-size: 45px;
+    color: #ffa500;
+    padding-bottom: 40px;
+}
+.Message h2{
+    font-size: 25px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.Message a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffa500;
+    background-color: white;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    box-shadow: 10px 15px 15px #d6d7d8;
+}
+.Message h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Message h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+.logic h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 40px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+html {
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* LARGE TABLETS & SMALL LAPTOPS */
+@media screen and (max-width: 1024px) {
+
+    nav {
+        padding: 25px 20px;
+    }
+
+    ul li a {
+        margin-right: 12px;
+        font-size: 17px;
+    }
+
+    .even {
+        padding: 60px 30px;
+    }
+
+    .even h1 {
+        font-size: 55px;
+    }
+
+    .even p {
+        font-size: 22px;
+    }
+
+    .parent-numb {
+        margin: 0 20px;
+        gap: 20px;
+    }
+
+    .parent-long {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .across img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .Secure p {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .always {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .Reach {
+        flex: 1 1 40%;
+        min-width: 0;
+    }
+
+    .Reach img {
+        margin: 20px auto;
+    }
+
+    .Founded {
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .humble,
+    .late {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .humble p {
+        width: 100%;
+    }
+
+    .late img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .Map img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .Tracking input {
+        width: 55%;
+    }
+}
+
+
+/* TABLETS & MOBILE LANDSCAPE */
+@media screen and (max-width: 768px) {
+
+    nav {
+        padding: 20px 15px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav h1 {
+        flex-shrink: 0;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 5px 0;
+    }
+
+    ul a {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    ul li a {
+        margin-right: 10px;
+    }
+
+    .Trusted {
+        height: 80vh;
+        min-height: 480px;
+        margin: 0;
+        background-position: center;
+    }
+
+    .even {
+        top: 120px;
+        padding: 40px 20px;
+    }
+
+    .even h1 {
+        font-size: clamp(36px, 6vw, 48px);
+        margin-bottom: 25px;
+    }
+
+    .even p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .nill {
+        margin: 50px 20px 35px;
+    }
+
+    .nill h1 {
+        font-size: 38px;
+    }
+
+    .parent-numb {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        margin: 0 25px;
+    }
+
+    .parent-long {
+        flex: 1 1 42%;
+        max-width: 100%;
+    }
+
+    .across img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .Secure {
+        margin: 15px;
+    }
+
+    .Secure p {
+        margin: 0 auto 35px;
+    }
+
+    .you {
+        padding: 30px 20px;
+    }
+
+    .quote {
+        margin: 25px 0;
+    }
+
+    .quote h1 {
+        font-size: 32px;
+    }
+
+    .quote p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .track {
+        margin: 55px 20px;
+    }
+
+    .ship {
+        margin: 30px 0;
+    }
+
+    .ship h1 {
+        font-size: 36px;
+    }
+
+    .Tracking {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Tracking input {
+        width: 65%;
+        min-width: 0;
+    }
+
+    .Tracking a {
+        padding: 17px 28px;
+    }
+
+    .nobody {
+        padding: 25px !important;
+    }
+
+    .Map h2 {
+        font-size: 38px;
+        padding: 20px !important;
+    }
+
+    .choose h1 {
+        font-size: 34px !important;
+        margin: 40px 10px !important;
+    }
+
+    .always {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .Reach {
+        min-height: 190px;
+        padding: 20px 12px;
+    }
+
+    .Reach img {
+        width: 40px;
+        margin: 10px auto 15px;
+    }
+
+    .Reach p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .Founded {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .humble,
+    .late {
+        width: 100%;
+    }
+
+    .humble p {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .late img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .Message {
+        padding: 60px 25px;
+    }
+
+    .Message h1 {
+        font-size: 38px;
+        line-height: 1.3;
+        padding-bottom: 25px;
+    }
+
+    .Message h2 {
+        font-size: 21px;
+        line-height: 1.6;
+    }
+
+    .Message h3,
+    .Message h4 {
+        font-size: 19px;
+        overflow-wrap: anywhere;
+    }
+
+    .Message a {
+        display: inline-block;
+        max-width: 100%;
+        padding: 18px 30px;
+        font-size: 18px;
+    }
+
+    .logic h1 {
+        font-size: 15px;
+        line-height: 1.7;
+        padding: 25px 15px;
+    }
+}
+
+
+/* MOBILE PHONES */
+@media screen and (max-width: 480px) {
+
+    nav {
+        padding: 15px 10px;
+        gap: 5px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    nav h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        flex: 1;
+        justify-content: flex-end;
+        gap: 4px 0;
+    }
+
+    ul a {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    ul li a {
+        margin-right: 8px;
+    }
+
+    .Trusted {
+        height: 75vh;
+        min-height: 440px;
+    }
+
+    .even {
+        top: 100px;
+        padding: 35px 15px;
+    }
+
+    .even h1 {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 22px;
+    }
+
+    .even p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .even button {
+        padding: 13px 22px !important;
+        margin: 20px 0 !important;
+        font-size: 15px;
+    }
+
+    .nill {
+        margin: 40px 15px 30px;
+    }
+
+    .nill h1 {
+        font-size: 32px;
+    }
+
+    .parent-numb {
+        flex-direction: column;
+        gap: 25px;
+        margin: 0 18px;
+    }
+
+    .parent-long {
+        width: 100%;
+    }
+
+    .across img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .Secure {
+        margin: 15px 10px;
+    }
+
+    .Secure img {
+        width: 50px;
+    }
+
+    .Secure h2 {
+        font-size: 21px;
+    }
+
+    .Secure p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .you {
+        padding: 25px 15px;
+        margin-top: 35px;
+    }
+
+    .quote {
+        margin: 20px 0;
+    }
+
+    .quote h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .quote p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .quote button {
+        font-size: 15px;
+        padding: 13px 20px;
+    }
+
+    .track {
+        margin: 45px 15px;
+    }
+
+    .ship {
+        margin: 25px 0;
+    }
+
+    .ship h1 {
+        font-size: 29px;
+        line-height: 1.3;
+    }
+
+    .Tracking {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Tracking input {
+        width: 100%;
+        padding: 14px 12px;
+        font-size: 14px;
+        border-width: 2px;
+    }
+
+    .Tracking a {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    .nobody {
+        padding: 15px !important;
+    }
+
+    .Map h2 {
+        font-size: 30px;
+        padding: 20px 0 !important;
+    }
+
+    .Map img {
+        width: 100%;
+        height: auto;
+    }
+
+    .choose h1 {
+        font-size: 29px !important;
+        margin: 35px 0 !important;
+    }
+
+    .always {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .Reach {
+        min-height: auto;
+        padding: 22px 15px;
+    }
+
+    .Reach img {
+        width: 40px;
+        margin: 5px auto 12px;
+    }
+
+    .Reach h2 {
+        font-size: 19px;
+    }
+
+    .Reach p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .Founded {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .humble p {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+
+    .humble h3 {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .humble h4 {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .late img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .Message {
+        padding: 45px 18px;
+    }
+
+    .Message h1 {
+        font-size: 30px;
+        line-height: 1.35;
+        padding-bottom: 22px;
+    }
+
+    .Message h2 {
+        font-size: 18px;
+        line-height: 1.6;
+        padding-bottom: 25px;
+    }
+
+    .Message h3,
+    .Message h4 {
+        font-size: 16px;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+    }
+
+    .Message img {
+        width: 21px;
+        vertical-align: middle;
+    }
+
+    .Message a {
+        display: inline-block;
+        padding: 15px 20px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .logic h1 {
+        font-size: 13px;
+        line-height: 1.8;
+        padding: 22px 12px;
+    }
+}
+
+
+/* VERY SMALL MOBILE PHONES */
+@media screen and (max-width: 360px) {
+
+    nav {
+        padding: 12px 7px;
+    }
+
+    nav h1 {
+        font-size: 21px;
+    }
+
+    ul a {
+        font-size: 11px;
+    }
+
+    ul li a {
+        margin-right: 6px;
+    }
+
+    .even h1 {
+        font-size: 31px;
+    }
+
+    .even p {
+        font-size: 15px;
+    }
+
+    .ship h1 {
+        font-size: 26px;
+    }
+
+    .Tracking input {
+        font-size: 12px;
+    }
+
+    .Message h1 {
+        font-size: 27px;
+    }
+
+    .Message a {
+        padding: 13px 15px;
+        font-size: 14px;
+    }
+}

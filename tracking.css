@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+}
+ul a:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+ul li a{
+    margin-right: 20px;
+}
+.top{
+    background: url(cf32cd2c-9e2b-4fd8-b33a-b114c86ea89f.jpeg);
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+    position: relative;
+} 
+.ship h1{
+    font-size: 50px;
+    color: white;
+    margin: 65px;
+    text-align: center;
+    
+}
+.ship{
+    top: 210px;
+    position: relative;
+    margin: auto;
+}
+.nill{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 40px;
+    margin: 25px 0;
+    background-color: rgb(243, 243, 244);
+    padding: 55px;
+    margin-top:-20px ;
+}
+.nill input{
+    padding: 15px;
+    width: 42%;
+    border: 3px solid #ffa500;
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.nill a{
+    text-decoration: none;
+     /* width: 100px; */
+    color: white;
+    background-color: #ffa500;
+     font-size: 22px;
+    padding:15px 45px;
+    border-radius: 30px;
+}
+.Map img{
+   width: fit-content;
+   height: fit-content;
+   mix-blend-mode: multiply;
+   display: flex;
+   margin: auto;
+}
+.logic h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 40px;
+    font-weight: normal;
+}
+
+
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ship {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.ship h1 {
+    max-width: 100%;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.nill {
+    width: 100%;
+    align-items: center;
+}
+
+.nill input {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.nill a {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.Map {
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Map img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.logic h1 {
+    width: 100%;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+/* TABLETS AND SMALL LAPTOPS */
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 18px 15px;
+        align-items: center;
+    }
+
+    nav h1 {
+        font-size: 26px;
+        flex-shrink: 0;
+    }
+
+    nav ul {
+        gap: 8px;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    nav ul li a {
+        margin-right: 8px;
+    }
+
+    .top {
+        height: 65vh;
+        min-height: 420px;
+    }
+
+    .ship {
+        top: 180px;
+    }
+
+    .ship h1 {
+        font-size: 42px;
+        margin: 40px 0;
+    }
+
+    .nill {
+        gap: 20px;
+        padding: 40px 25px;
+    }
+
+    .nill input {
+        width: 55%;
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .nill a {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+
+    .Map {
+        padding: 15px;
+    }
+
+    .logic h1 {
+        font-size: 16px;
+        padding: 30px 20px;
+    }
+}
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 16px 12px;
+        gap: 10px;
+    }
+
+    nav h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        gap: 6px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    nav ul li a {
+        margin-right: 4px;
+    }
+
+    .top {
+        height: 55vh;
+        min-height: 350px;
+        background-position: center;
+    }
+
+    .ship {
+        top: 155px;
+        padding: 0 15px;
+    }
+
+    .ship h1 {
+        font-size: 36px;
+        margin: 30px 0;
+    }
+
+    .nill {
+        flex-direction: column;
+        gap: 18px;
+        padding: 30px 20px;
+        margin-top: -15px;
+    }
+
+    .nill input {
+        width: 100%;
+        max-width: 520px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .nill a {
+        width: fit-content;
+        max-width: 100%;
+        padding: 13px 35px;
+        font-size: 18px;
+    }
+
+    .Map {
+        padding: 15px;
+    }
+
+    .Map img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logic h1 {
+        font-size: 15px;
+        padding: 28px 18px;
+    }
+}
+
+/* MOBILE PHONES */
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 14px 8px;
+        gap: 6px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    nav h1 {
+        font-size: 21px;
+    }
+
+    nav ul {
+        gap: 5px;
+        font-size: 11px;
+    }
+
+    nav ul li a {
+        margin-right: 0;
+    }
+
+    .top {
+        height: 48vh;
+        min-height: 280px;
+        background-position: center;
+    }
+
+    .ship {
+        top: 125px;
+        padding: 0 12px;
+    }
+
+    .ship h1 {
+        font-size: 27px;
+        line-height: 1.4;
+        margin: 20px 0;
+    }
+
+    .nill {
+        padding: 25px 15px;
+        gap: 15px;
+        margin-top: -10px;
+    }
+
+    .nill input {
+        width: 100%;
+        padding: 13px 10px;
+        font-size: 14px;
+        border-width: 2px;
+    }
+
+    .nill a {
+        padding: 12px 28px;
+        font-size: 16px;
+        border-radius: 25px;
+    }
+
+    .Map {
+        padding: 10px;
+    }
+
+    .Map img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logic h1 {
+        font-size: 13px;
+        line-height: 1.7;
+        padding: 24px 12px;
+    }
+}
+
+/* VERY SMALL MOBILE PHONES */
+@media screen and (max-width: 360px) {
+    nav {
+        padding: 12px 6px;
+        gap: 4px;
+    }
+
+    nav h1 {
+        font-size: 19px;
+    }
+
+    nav ul {
+        gap: 4px;
+        font-size: 10px;
+    }
+
+    .top {
+        min-height: 250px;
+    }
+
+    .ship {
+        top: 110px;
+    }
+
+    .ship h1 {
+        font-size: 23px;
+    }
+
+    .nill {
+        padding: 22px 12px;
+    }
+
+    .nill input {
+        font-size: 12px;
+    }
+
+    .nill a {
+        font-size: 15px;
+        padding: 11px 24px;
+    }
+
+    .logic h1 {
+        font-size: 12px;
+        padding: 20px 10px;
+    }
+}

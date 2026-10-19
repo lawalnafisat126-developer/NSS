@@ -1,0 +1,745 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+}
+ul a:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+ul li a{
+    margin-right: 20px;
+}
+.intend{
+    background: url(e3787ab8-7a2c-4838-b55a-db89ca6d7100\ \(2\).JPG);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-top: 90px;
+}
+.bound{
+    position: relative;
+    top: 200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.bound h1{
+    font-size: 60px;
+    font-weight: bolder ;
+    margin-bottom: 40px;
+}
+.bound p{
+    font-size: 25px;
+    font-weight: normal;
+}
+.story{
+    text-align: center;
+    margin: 70px;
+}
+.story h1{
+    color: #ffa500;
+    font-size: 45px;
+}
+.proud h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    width: 150%;
+}
+.late img{
+    width: 95%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 15px 20px 20px #e2e4e6;
+}
+.late{
+    width: 50%;
+}
+.humble{
+    width: 50%;
+}
+.humble h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.humble h3{
+    font-size: 17px;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+.humble p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.Founded{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+}
+.mission{
+    background-color: #f5f7f8;
+    padding: 40px;
+}
+.empower h1{
+    text-align: center;
+    font-size: 50px;
+    color: #ffa500;
+}
+.world img{
+    width: 50px;
+    margin: 0 110px;
+}
+.world{
+    width: 32%;
+    padding: 30px;
+    background-color:white ;
+    margin-top: 30px;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px #e2e4e6;
+    margin-bottom: 50px;
+}
+.world p{
+    font-size: 18px;
+    width: 95%;
+    line-height: 1.4;
+}
+.world h1{
+    text-align: center;
+    margin: 15px;
+}
+.Offa{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 8;
+}
+.Founder img{
+  width: 20%;
+  height: 50vh;
+  border-radius: 15px;
+}
+.Founder{
+    text-align: center;
+    /* background: white; */
+    /* box-shadow: 5px 10px 10px 5px black; */
+    min-width: fit-content;
+}
+.Founder h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.Founder h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.Founder p{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 25px;
+}
+.Ready{
+    text-align: center;
+    background-color: #f5f7f8;
+    padding: 110px;
+    margin-top: 80px;
+}
+.Ready h1{
+    font-size: 45px;
+    font-weight:900;
+    margin-bottom: 50px;
+    color: #ffa500;
+}
+.Ready p{
+    font-size: 17px;
+    margin-bottom: 28px;
+}
+.Ready a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: white;
+    padding: 25px 50px;
+    color: #ffa500;
+    font-weight: bolder;
+    border-radius: 40px;
+    box-shadow: 15px 20px 20px #e2e4e6;
+    /* margin-bottom: 80px; */
+}
+.dean{
+    background-color: black;
+    top: -10;
+}
+.dean h2{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* LAPTOPS AND SMALL DESKTOPS */
+@media screen and (max-width: 1024px) {
+
+    nav {
+        padding: 20px;
+        align-items: center;
+    }
+
+    ul {
+        gap: 5px;
+        font-size: 17px;
+    }
+
+    ul li a {
+        margin-right: 10px;
+    }
+
+    .intend {
+        background-position: center;
+    }
+
+    .bound {
+        padding: 0 20px;
+    }
+
+    .bound h1 {
+        font-size: 52px;
+    }
+
+    .bound p {
+        font-size: 22px;
+    }
+
+    .Founded {
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .humble,
+    .late {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .humble h2 {
+        line-height: 1.6;
+    }
+
+    .late img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .mission {
+        padding: 30px;
+    }
+
+    .empower h1 {
+        font-size: 42px;
+    }
+
+    .Offa {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px 0;
+    }
+
+    .world {
+        width: calc(33.333% - 15px);
+        height: auto;
+        min-height: 280px;
+        padding: 25px 18px;
+        margin: 0 0 20px;
+    }
+
+    .world img {
+        display: block;
+        width: 45px;
+        margin: 0 auto;
+    }
+
+    .world p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .world h2 {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+
+    .Founder img {
+        width: 30%;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .Ready {
+        padding: 80px 35px;
+    }
+
+    .Ready h1 {
+        font-size: 40px;
+    }
+}
+
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+
+    nav {
+        padding: 18px 15px;
+        gap: 10px;
+    }
+
+    nav h1 {
+        flex-shrink: 0;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+
+    ul {
+        font-size: 15px;
+    }
+
+    ul li a {
+        margin-right: 8px;
+    }
+
+    .intend {
+        height: 65vh;
+        min-height: 400px;
+        margin-top: 75px;
+        background-position: center;
+    }
+
+    .bound {
+        top: 150px;
+        padding: 0 20px;
+    }
+
+    .bound h1 {
+        font-size: 44px;
+        margin-bottom: 25px;
+    }
+
+    .bound p {
+        font-size: 19px;
+        line-height: 1.6;
+    }
+
+    .story {
+        margin: 50px 20px 35px;
+    }
+
+    .story h1 {
+        font-size: 38px;
+    }
+
+    .Founded {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .humble,
+    .late {
+        width: 100%;
+    }
+
+    .humble h2 {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .humble h3 {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .humble p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .late img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .mission {
+        padding: 35px 20px;
+    }
+
+    .empower h1 {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+
+    .Offa {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        padding: 35px 0;
+    }
+
+    .world {
+        width: 100%;
+        height: auto;
+        min-height: 260px;
+        padding: 25px 18px;
+        margin: 0;
+    }
+
+    .world img {
+        display: block;
+        width: 45px;
+        margin: 0 auto;
+    }
+
+    .world h1 {
+        font-size: 23px;
+        margin: 15px 0;
+    }
+
+    .world p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .world h2 {
+        width: 100% !important;
+        font-size: 16px !important;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+    }
+
+    .Founder {
+        padding: 0 20px;
+        min-width: 0;
+    }
+
+    .Founder img {
+        width: 45%;
+        height: auto;
+        max-height: 380px;
+        object-fit: cover;
+    }
+
+    .Founder h1 {
+        font-size: 24px;
+    }
+
+    .Founder p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .Ready {
+        padding: 65px 25px;
+        margin-top: 60px;
+    }
+
+    .Ready h1 {
+        font-size: 35px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+
+    .Ready p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .Ready a {
+        display: inline-block;
+        max-width: 100%;
+        padding: 20px 30px;
+        font-size: 18px;
+    }
+
+    .dean h2 {
+        padding: 30px 20px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+}
+
+
+/* MOBILE PHONES */
+@media screen and (max-width: 480px) {
+
+    nav {
+        padding: 14px 10px;
+        gap: 5px;
+    }
+
+    nav h1 {
+        font-size: 23px;
+    }
+
+    nav ul {
+        flex: 1;
+        justify-content: flex-end;
+        gap: 5px 0;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    ul li a {
+        margin-right: 7px;
+    }
+
+    .intend {
+        height: 55vh;
+        min-height: 350px;
+        margin-top: 65px;
+        background-position: center;
+    }
+
+    .bound {
+        top: 120px;
+        padding: 0 15px;
+    }
+
+    .bound h1 {
+        font-size: 35px;
+        line-height: 1.25;
+        margin-bottom: 20px;
+    }
+
+    .bound p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .story {
+        margin: 40px 15px 25px;
+    }
+
+    .story h1 {
+        font-size: 32px;
+    }
+
+    .Founded {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .humble h2 {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+
+    .humble h3 {
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 18px;
+    }
+
+    .humble p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .late img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        border-radius: 15px;
+    }
+
+    .mission {
+        padding: 30px 18px;
+    }
+
+    .empower h1 {
+        font-size: 29px;
+        line-height: 1.4;
+    }
+
+    .Offa {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+    .world {
+        min-height: 0;
+        padding: 25px 20px;
+        margin: 0;
+        border-radius: 18px;
+    }
+
+    .world img {
+        width: 42px;
+    }
+
+    .world h1 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    .world h2 {
+        font-size: 15px !important;
+        line-height: 1.7;
+    }
+
+    .world p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .Founder {
+        padding: 0 15px;
+    }
+
+    .Founder img {
+        width: 65%;
+        height: auto;
+        max-height: 350px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .Founder h1 {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .Founder h3 {
+        font-size: 17px;
+    }
+
+    .Founder p {
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 20px 10px;
+    }
+
+    .Ready {
+        padding: 50px 18px;
+        margin-top: 50px;
+    }
+
+    .Ready h1 {
+        font-size: 28px;
+        line-height: 1.4;
+        margin-bottom: 25px;
+    }
+
+    .Ready p {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-bottom: 25px;
+    }
+
+    .Ready a {
+        padding: 16px 22px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .dean h2 {
+        padding: 22px 12px;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+}
+
+
+/* VERY SMALL PHONES */
+@media screen and (max-width: 360px) {
+
+    nav {
+        padding: 12px 7px;
+    }
+
+    nav h1 {
+        font-size: 20px;
+    }
+
+    ul {
+        font-size: 11px;
+        gap: 4px 0;
+    }
+
+    ul li a {
+        margin-right: 5px;
+    }
+
+    .bound h1 {
+        font-size: 30px;
+    }
+
+    .bound p {
+        font-size: 14px;
+    }
+
+    .empower h1 {
+        font-size: 26px;
+    }
+
+    .Founder img {
+        width: 75%;
+    }
+
+    .Ready h1 {
+        font-size: 25px;
+    }
+
+    .Ready a {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+}
